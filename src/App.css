@@ -9,6 +9,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     background-size: 100% 100%;
+    background-image: url('./images/manu1.png');
   }
 }
 
