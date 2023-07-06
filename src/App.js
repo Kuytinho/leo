@@ -1,16 +1,56 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { Grid } from "@mui/material";
+import { Container } from "@mui/system";
+import PersonCard from './components/PersonCard';
+import Navbar from './components/NavBar';
+import persons from './persons';
+import AudioPlayer from 'react-audio-player';
 import './App.css';
+import Music from './music/musica.mp3'
 
-function App() {
+const App = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+  };
+
+  useEffect(() => {
+    document.title = "Aniversário da Thatha!!!";
+  }, []);
+
+  const filteredPersons = persons.filter((person) =>
+    person.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Choo Choo! This is an example of a create-react-app site running on Railway.</p>
-        <a className="App-link" href="https://react.dev/learn" target="_blank" rel="noreferrer noopener">Learn React</a>
-      </header>
+    <div>
+      <Navbar onSearch={handleSearch} />
+      <Container maxWidth={false}>
+        <Grid container>
+          {filteredPersons.map((person, index) => (
+            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+              <PersonCard
+                key={index}
+                name={person.name}
+                description={person.description}
+                videoUrl={person.videoUrl}
+                image={person.image}
+              />
+            </Grid >
+          ))}
+        </Grid>
+      </Container>
+      <div style={{ position: 'fixed', bottom: 0, left: 0, width: '100%' }}>
+        <AudioPlayer
+          src={Music}
+          controls
+          autoPlay
+          loop
+        />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
