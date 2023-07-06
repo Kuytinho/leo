@@ -67,7 +67,7 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
         </div>
         <img
           src={rightImage}
-          alt="Right Image"
+          alt="Right Imagenzinha"
           style={{
             width: '20%',
             objectFit: 'cover',
