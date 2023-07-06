@@ -29,10 +29,10 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
         flexDirection: 'column',
         maxWidth: 600,
         margin: '16px',
-        backgroundColor: '#5F0F40',
+        backgroundColor: ' #0F0F0F',
         color: 'white',
         '&:hover': {
-          backgroundColor: '#7E1765',
+          backgroundColor: '#1F1F1F ',
         },
       }}
     >

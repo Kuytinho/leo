@@ -56,7 +56,7 @@ const NavBar = ({ onSearch }) => {
 
   return (
     <AppBar position="static">
-      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#9A031E' }}>
+      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', backgroundColor: '#0B0500' }}>
         <Typography sx={{ fontFamily: 'Lobster, cursive' }} variant="h4">
           Aniversário do Léo!
         </Typography>
