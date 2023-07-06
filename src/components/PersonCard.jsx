@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Manchester from '../images/manchesterLogo.png';
+import Flamengo from '../images/flamengoLogo.png';
+import Policia from '../images/policiaLogo.png';
 
 const PersonCard = ({ name, description, videoUrl, image }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -10,12 +13,20 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
     setShowVideo(!showVideo);
   };
 
+  const getRandomImage = () => {
+    const images = [Flamengo, Manchester, Policia];
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+  };
+
+  const rightImage = getRandomImage();
+
   return (
     <Card
       onClick={handleClick}
       sx={{
         display: 'flex',
-        flexDirection: 'column', // Alterado para coluna
+        flexDirection: 'column',
         maxWidth: 600,
         margin: '16px',
         backgroundColor: '#5F0F40',
@@ -42,18 +53,27 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
         />
         <div style={{ flexGrow: 1 }}>
           <CardContent>
-            <Typography sx={{ fontFamily: 'Lobster, cursive' }} variant="h6" component="div">
+            <Typography variant="h6" component="div">
               {name}
             </Typography>
             <Typography
               variant="body2"
               color="text.secondary"
-              sx={{ color: 'rgba(255, 255, 255, 0.8)', fontFamily: 'Lobster, cursive' }}
+              sx={{ color: 'rgba(255, 255, 255, 0.8)' }}
             >
               {description}
             </Typography>
           </CardContent>
         </div>
+        <img
+          src={rightImage}
+          alt="Right Image"
+          style={{
+            width: '20%',
+            objectFit: 'cover',
+            margin: '16px',
+          }}
+        />
       </div>
       {showVideo && (
         <div style={{ margin: '16px' }}>

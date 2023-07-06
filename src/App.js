@@ -16,7 +16,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    document.title = "Aniversário da Thatha!!!";
+    document.title = "Aniversário do Léo";
   }, []);
 
   const filteredPersons = persons.filter((person) =>
