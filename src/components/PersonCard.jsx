@@ -42,13 +42,13 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
         />
         <div style={{ flexGrow: 1 }}>
           <CardContent>
-            <Typography variant="h6" component="div">
+            <Typography sx={{ fontFamily: 'Lobster, cursive' }} variant="h6" component="div">
               {name}
             </Typography>
             <Typography
               variant="body2"
               color="text.secondary"
-              sx={{ color: 'rgba(255, 255, 255, 0.8)' }}
+              sx={{ color: 'rgba(255, 255, 255, 0.8)', fontFamily: 'Lobster, cursive' }}
             >
               {description}
             </Typography>
