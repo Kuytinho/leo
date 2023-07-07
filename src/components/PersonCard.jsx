@@ -5,6 +5,11 @@ import Typography from '@mui/material/Typography';
 import Manchester from '../images/manchesterLogo.png';
 import Flamengo from '../images/flamengoLogo.png';
 import Policia from '../images/policiaLogo.png';
+import Hoodwink from '../images/hoodwink.png';
+import Rubick from '../images/rubick.png';
+import Dota2 from '../images/Dota-2-Logo.png';
+import DotaHero from '../images/dotaHero.png';
+import Pudge from '../images/pudge.png';
 
 const PersonCard = ({ name, description, videoUrl, image }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -14,7 +19,7 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
   };
 
   const getRandomImage = () => {
-    const images = [Flamengo, Manchester, Policia];
+    const images = [Flamengo, Manchester, Policia, Hoodwink, Rubick, Dota2, DotaHero, Pudge];
     const randomIndex = Math.floor(Math.random() * images.length);
     return images[randomIndex];
   };
