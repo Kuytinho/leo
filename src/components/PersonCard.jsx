@@ -2,30 +2,13 @@ import React, { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import Manchester from '../images/manchesterLogo.png';
-import Flamengo from '../images/flamengoLogo.png';
-import Policia from '../images/policiaLogo.png';
-import Hoodwink from '../images/hoodwink.png';
-import Rubick from '../images/rubick.png';
-import Dota2 from '../images/Dota-2-Logo.png';
-import DotaHero from '../images/dotaHero.png';
-import Pudge from '../images/pudge.png';
-import Juggernaut from '../images/juggernaut.png';
 
-const PersonCard = ({ name, description, videoUrl, image }) => {
+const PersonCard = ({ name, description, videoUrl, image, rightImage }) => {
   const [showVideo, setShowVideo] = useState(false);
 
   const handleClick = () => {
     setShowVideo(!showVideo);
   };
-
-  const getRandomImage = () => {
-    const images = [Flamengo, Manchester, Policia, Hoodwink, Rubick, Dota2, Juggernaut, DotaHero, Pudge];
-    const randomIndex = Math.floor(Math.random() * images.length);
-    return images[randomIndex];
-  };
-
-  const rightImage = getRandomImage();
 
   return (
     <Card

@@ -1,128 +1,117 @@
-// import sailor from './images/icons8-sailor-moon.svg'
-// import pikachu from './images/icons8-pikachu-32.png'
-// import harry from './images/quidditch-harry-potter.svg'
-import botafogo from './images/download.png'
+import Manchester from './images/manchesterLogo.png';
+import Flamengo from './images/flamengoLogo.png';
+import Policia from './images/policiaLogo.png';
+import Hoodwink from './images/hoodwink.png';
+import Rubick from './images/rubick.png';
+import Dota2 from './images/Dota-2-Logo.png';
+import DotaHero from './images/dotaHero.png';
+import Pudge from './images/pudge.png';
+import Juggernaut from './images/juggernaut.png';
+import polSimpsons from './images/polSimpsons.png';
+import Joe from './images/joe.png';
+import Jenny from './images/policialJenny.png';
+import Manetric from './images/manetric.png';
+import Pikachu from './images/pikachu.png';
+import Lucas from './images/download.png'
 
 const persons = [
     {
       name: "Lucas",
       description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
-      image: botafogo,
+      image: Lucas,
+      rightImage: Manchester
     },
     {
-      name: "Sergio e Maria Consuelo",
-      description: "Familia",
-      videoUrl: "https://www.youtube.com/embed/77-HGrBcJjY",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Flamengo
     },
     {
-      name: "Digão",
-      description: "Familia",
-      videoUrl: "https://www.youtube.com/embed/fcNB3mJPubM",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Policia
     },
     {
-      name: "Dani",
-      description: "Familia",
-      videoUrl: "https://www.youtube.com/embed/zRmpUdKu2zY",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Joe
     },
     {
-      name: "Paula",
-      description: "Familia",
-      videoUrl: "https://www.youtube.com/embed/64EalfAGXDo",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: polSimpsons
     },
     {
-      name: "Renata, Lais, Patricia e Maria Catarina",
-      description: "Familia",
-      videoUrl: "https://www.youtube.com/embed/OnM9V40uMUQ" ,
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Dota2
     },
     {
-      name: "Luciano",
-      description: "Amigo",
-      videoUrl: "https://www.youtube.com/embed/sxotL2g-AmI" ,
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: DotaHero
     },
     {
-      name: "Jessica",
-      description: "Amiga",
-      videoUrl: "https://www.youtube.com/embed/j7JbJGlTJyg" ,
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Pudge
     },
     {
-      name: "Helkem",
-      description: "Amiga",
-      videoUrl: "https://www.youtube.com/embed/RZ8ZZODGyBM" ,
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Juggernaut
     },
     {
-      name: "Amanda",
-      description: "Amiga",
-      videoUrl: "https://www.youtube.com/embed/eoM0mvrriqY",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Rubick
     },
     {
-      name: "Vanessa",
-      description: "Amiga",
-      videoUrl: "https://www.youtube.com/embed/k-ihWuFtsSE" ,
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Hoodwink
     },
     {
-      name: "Camila",
-      description: "Amiga",
-      videoUrl: "https://www.youtube.com/embed/19tel60ajxQ",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Jenny
     },
     {
-      name: "Lucas Frango",
-      description: "Amigo",
-      videoUrl: "https://player.vimeo.com/video/837553123?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479", 
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Manetric
     },
     {
-      name: "Reynaldo",
-      description: "Amigo",
-      videoUrl: "https://www.youtube.com/embed/bpgAsPRTfYk",
-      
-    },
-    {
-      name: "Renato",
-      description: "Amigo",
-      videoUrl: "https://www.youtube.com/embed/gN1VcPHDdZ8",
-      
-    },
-    {
-      name: "Everton e Shayra",
-      description: "Casal de amigos",
-      videoUrl: "https://www.youtube.com/embed/VbZm9S4ZJaM",
-      
-    },
-    {
-      name: "Hellen e Andressa",
-      description: "Casal de amigos",
-      videoUrl: "https://www.youtube.com/embed/ZU5lJe5mYgs",
-      
-    },
-    {
-      name: "Sued e Layane",
-      description: "Casal de amigos",
-      videoUrl: "https://www.youtube.com/embed/q_z4CIvZuMI",
-      
-    },
-    {
-      name: "Tiubas e Giovanna",
-      description: "Casal de amigos",
-      videoUrl: "https://www.youtube.com/embed/miiPN8wiHLc",
-      
-    },
-    {
-      name: "Endrius e Amanda",
-      description: "Casal de amigos",
-      videoUrl: "https://www.youtube.com/embed/j6hMbA9ksDI",
-      
+      name: "Lucas",
+      description: "Homi",
+      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      image: Lucas,
+      rightImage: Pikachu
     },
   ];
   

@@ -36,6 +36,7 @@ const App = () => {
                 description={person.description}
                 videoUrl={person.videoUrl}
                 image={person.image}
+                rightImage={person.rightImage}
               />
             </Grid >
           ))}
