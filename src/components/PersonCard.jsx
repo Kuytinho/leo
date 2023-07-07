@@ -10,6 +10,7 @@ import Rubick from '../images/rubick.png';
 import Dota2 from '../images/Dota-2-Logo.png';
 import DotaHero from '../images/dotaHero.png';
 import Pudge from '../images/pudge.png';
+import Juggernaut from '../images/juggernaut.png';
 
 const PersonCard = ({ name, description, videoUrl, image }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -19,7 +20,7 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
   };
 
   const getRandomImage = () => {
-    const images = [Flamengo, Manchester, Policia, Hoodwink, Rubick, Dota2, DotaHero, Pudge];
+    const images = [Flamengo, Manchester, Policia, Hoodwink, Rubick, Dota2, Juggernaut, DotaHero, Pudge];
     const randomIndex = Math.floor(Math.random() * images.length);
     return images[randomIndex];
   };
@@ -58,13 +59,13 @@ const PersonCard = ({ name, description, videoUrl, image }) => {
         />
         <div style={{ flexGrow: 1 }}>
           <CardContent>
-            <Typography variant="h6" component="div">
+            <Typography variant="h6" component="div" sx={{ fontFamily: 'Lobster, cursive' }}>
               {name}
             </Typography>
             <Typography
               variant="body2"
               color="text.secondary"
-              sx={{ color: 'rgba(255, 255, 255, 0.8)' }}
+              sx={{ color: 'rgba(255, 255, 255, 0.8)', fontFamily: 'Lobster, cursive' }}
             >
               {description}
             </Typography>
