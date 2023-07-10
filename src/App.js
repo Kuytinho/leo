@@ -33,7 +33,6 @@ const App = () => {
               <PersonCard
                 key={index}
                 name={person.name}
-                description={person.description}
                 videoUrl={person.videoUrl}
                 image={person.image}
                 rightImage={person.rightImage}

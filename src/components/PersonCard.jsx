@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-const PersonCard = ({ name, description, videoUrl, image, rightImage }) => {
+const PersonCard = ({ name, videoUrl, image, rightImage }) => {
   const [showVideo, setShowVideo] = useState(false);
 
   const handleClick = () => {
@@ -44,13 +44,6 @@ const PersonCard = ({ name, description, videoUrl, image, rightImage }) => {
           <CardContent>
             <Typography variant="h6" component="div" sx={{ fontFamily: 'Lobster, cursive' }}>
               {name}
-            </Typography>
-            <Typography
-              variant="body2"
-              color="text.secondary"
-              sx={{ color: 'rgba(255, 255, 255, 0.8)', fontFamily: 'Lobster, cursive' }}
-            >
-              {description}
             </Typography>
           </CardContent>
         </div>

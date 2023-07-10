@@ -18,98 +18,84 @@ import personalPics from './personalPics';
 const persons = [
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Manchester
     },
     {
       name: "Yuri",
-      description: "Amigo",
       videoUrl: "https://www.youtube.com/embed/5bvNa6WLi-0",
       image: personalPics[1],
       rightImage: Flamengo
     },
     {
       name: "Rafuta",
-      description: "Amigo",
       videoUrl: "https://www.youtube.com/embed/ImKwS062kkg",
       image: personalPics[2],
       rightImage: Policia
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Joe
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: polSimpsons
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Dota2
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: DotaHero
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Pudge
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Juggernaut
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Rubick
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Hoodwink
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Jenny
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Manetric
     },
     {
       name: "Lucas",
-      description: "Homi",
       videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
       image: personalPics[0],
       rightImage: Pikachu
