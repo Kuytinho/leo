@@ -17,8 +17,8 @@ import personalPics from './personalPics';
 
 const persons = [
     {
-      name: "Lucas",
-      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      name: "Pedro",
+      videoUrl: "https://www.youtube.com/embed/i4LitqXqrYQ",
       image: personalPics[0],
       rightImage: Manchester
     },
@@ -35,14 +35,14 @@ const persons = [
       rightImage: Policia
     },
     {
-      name: "Lucas",
-      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      name: "Karen, João e Alessandra",
+      videoUrl: "https://www.youtube.com/embed/Ll4tL2FMqT8",
       image: personalPics[0],
       rightImage: Joe
     },
     {
-      name: "Lucas",
-      videoUrl: "https://www.youtube.com/embed/7yNyxwr53_s",
+      name: "Iure e Camila",
+      videoUrl: "https://www.youtube.com/embed/JFtFnP9NQEA",
       image: personalPics[0],
       rightImage: polSimpsons
     },
