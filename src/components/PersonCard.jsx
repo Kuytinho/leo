@@ -31,15 +31,6 @@ const PersonCard = ({ name, videoUrl, image, rightImage }) => {
           alignItems: 'center',
         }}
       >
-        <img
-          src={image}
-          alt={name}
-          style={{
-            width: '20%',
-            objectFit: 'cover',
-            margin: '16px',
-          }}
-        />
         <div style={{ flexGrow: 1 }}>
           <CardContent>
             <Typography variant="h6" component="div" sx={{ fontFamily: 'Lobster, cursive' }}>

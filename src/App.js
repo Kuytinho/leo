@@ -34,7 +34,6 @@ const App = () => {
                 key={index}
                 name={person.name}
                 videoUrl={person.videoUrl}
-                image={person.image}
                 rightImage={person.rightImage}
               />
             </Grid >
