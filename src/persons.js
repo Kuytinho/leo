@@ -17,16 +17,6 @@ import Pikachu from './images/pikachu.png';
 
 const persons = [
     {
-      name: "Cleigue, Pilóia e Chiquinho",
-      videoUrl: "https://www.youtube.com/embed/rsniagkBSVg",
-      rightImage: Dota2
-    },
-    {
-      name: "Lucas",
-      videoUrl: "https://www.youtube.com/embed/Y5OC74d-gck",
-      rightImage: Pudge
-    },
-    {
       name: "Renata, Lais e Catarina",
       videoUrl: "https://www.youtube.com/embed/0QRf2WiljZo ",
       rightImage: Jenny
@@ -35,6 +25,16 @@ const persons = [
       name: "Catarina",
       videoUrl: "https://www.youtube.com/embed/ojtwpYNGL9M",
       rightImage: Pikachu
+    },
+    {
+      name: "Cleigue, Pilóia e Chiquinho",
+      videoUrl: "https://www.youtube.com/embed/rsniagkBSVg",
+      rightImage: Dota2
+    },
+    {
+      name: "Lucas",
+      videoUrl: "https://www.youtube.com/embed/Y5OC74d-gck",
+      rightImage: Pudge
     },
     {
       name: "Pátricia, Sérgio, Julia e Vitor",
